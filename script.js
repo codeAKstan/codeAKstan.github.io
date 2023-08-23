@@ -36,3 +36,14 @@ $(document).ready(function(){
   });
 
 });
+
+// calculating my age
+let birthYear = 2003;
+const currentYear = new Date();
+
+function myAge(){
+  let age = currentYear.getFullYear() - birthYear;
+  return age
+}
+let myage = document.getElementById("age");
+myage.textContent = myAge();
