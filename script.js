@@ -15,6 +15,7 @@ $(document).ready(function(){
     }else{
       $('.top').hide();
     }
+    $('#year').text(new Date().getFullYear());
 
   });
 
