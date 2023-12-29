@@ -285,8 +285,8 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    height: 20rem;
-    width:26rem;
+    /* height: 20rem; */
+    /* width:26rem; */
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
@@ -299,9 +299,9 @@ header .navbar ul li a:hover{
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img{
+/* .portfolio .box-container .box:hover img{
     transform: scale(1.2);
-}
+} */
 /* end of portofolio*/
 
 .contact .row{
@@ -460,5 +460,10 @@ header .navbar ul li a:hover{
  }
  p{
     color: white;
+    font-size: 2rem;
+    text-transform: none;
+ }
+ a{
+    color: var(--yellow);
     font-size: 2rem;
  }
